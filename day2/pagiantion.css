@@ -1,0 +1,21 @@
+.pagination{
+    text-align: center;
+  }
+  .pagination a{
+    display: inline-block;
+    text-decoration: none;
+    padding:8px 15px;
+    color:black;
+   
+    
+  }
+  .pagination a.active{
+     background-color: aquamarine;
+     font-weight: bold;
+     border-radius: 5px;
+  }
+  .pagination a:hover:not(.active){
+
+    background-color: bisque;
+    border-radius: 5px;;
+  }
